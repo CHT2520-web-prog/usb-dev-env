@@ -64,7 +64,7 @@ SQLite is a simple relational database management system (RDBMS). Unlike systems
 
 Instead, the entire database is stored in a single file on your computer (usually with a .sqlite or .db extension).
 
-If we specify `DB_CONNECTION=sqlite` in our _.env_ file, Laravel will automatically create a _database.sqlite_ file for us in _database/database.sqlite_. 
+If we specify `DB_CONNECTION=sqlite` in our _.env_ file, Laravel will automatically create a _database.sqlite_ file for us in _database/database.sqlite_. We don't need to specify a database, username, password etc. 
 
 We need to tell Adminer where to find this file. 
 
